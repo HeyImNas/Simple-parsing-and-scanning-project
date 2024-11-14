@@ -1,5 +1,6 @@
 %{
 #include "parser.tab.h"  // To use token definitions from Bison
+#include <string.h>
 %}
 
 %%
