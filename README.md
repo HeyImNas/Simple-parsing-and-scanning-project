@@ -155,11 +155,3 @@ Possible enhancements could include:
 4. Enhanced error recovery
 5. Support for strings and arrays
 6. Function definitions and calls
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
-
-## License
-
-[Add your chosen license here]
