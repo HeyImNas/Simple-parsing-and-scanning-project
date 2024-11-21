@@ -155,3 +155,15 @@ Possible enhancements could include:
 4. Enhanced error recovery
 5. Support for strings and arrays
 6. Function definitions and calls
+
+## TODO
+
+1. Implement semantics error for division by zero:
+    -Check if the denominator in a division operation is zero.
+    -Raise an error or handle the case appropriately when division by zero is detected.
+2. Find semantics errors for undefined variables:
+    -Check if a variable is used before being defined or assigned a value.
+    -Raise an error or alert when an undefined variable is encountered during code execution.
+3. Syntax error for missing tokens such as assignment tokens:
+    -Check for missing or incomplete syntax, like missing assignment operators (=) or other required tokens in expressions.
+    -Flag as a syntax error when an expected token is missing, preventing successful code parsing or execution.
